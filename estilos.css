@@ -1,0 +1,35 @@
+.contenido{
+  display: flex;
+  justify-content: center;
+}
+
+.boton{
+  text-align: center;
+  justify-content: center;
+  margin: 15px;
+}
+.imagen{
+  flex-direction: row;
+}
+.imagen > li{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+img{
+  width: 40%;
+  height: 40%;
+}
+img:hover{
+  width: 60%;
+  height: 60%;  
+}
+.contenido{
+  display: flex;
+}
+.contenido > div{
+  flex-direction: row;
+}
+p{
+  text-align:justify;
+}
